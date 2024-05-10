@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 2.5rem;
+}
+
+.header > .logo img {
+    height: 100%;
+    width: 250px;
+}
+
+.header > .navigation-wrapper {
+    margin-right: 5rem
+}
+
+.header > .navigation-wrapper > .explore {
+    color: rgb(238, 226, 115);
+    font-size: 1.5em;
+}
+
+.header > .navigation-wrapper > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .nav-link a {
+    color: white;
+    text-align: center;
+    padding-right: 25px;
+    font-size: 1.5em;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .spark-chevron {
+    margin-bottom: -5px;
+    margin-left: 25px;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .spark-chevron > .dropbtn {
+    color: rgb(136, 136, 136);
+    background-color: black;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+}
+
+.header > .navigation-wrapper > .links-wrapper > .spark-chevron > .dropbtn i {
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.header > .right-side-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header > .right-side-wrapper > .right-side-btn button {
+    color: white;
+    background-color: #36373d;
+    font-size: 1.75em;
+    border: none;
+    outline: none;
+    padding: 27px 37px 27px 37px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.header > .right-side-wrapper > .right-side-btn > button i {
+    color: rgb(82, 211, 82);
+    margin-left: 5px;
+}
+
+.header > .right-side-wrapper > .nav-link > a > i {
+    color: rgb(107, 107, 107);
+    font-size: 2.5em;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer > .codepen-phrases-wrapper {
+    display: flex;
+    background-color: #35373d;
+    color: white;
+    width: 100%;
+}
+
+.footer > .codepen-phrases-wrapper > .codepen-phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px rgb(116, 116, 116);
+    font-size: 1.5em;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+}
+
+.middle-content {
+    background: rgb(32, 32, 37);
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-content > .left-side > .sentence-one {
+    color: white;
+    font-size: 3.6em;
+    font-weight: 300;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+.middle-content > .left-side > .sentence-two {
+    color: #afb2b0;
+    font-size: 2.82em;
+    font-weight: 375;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+
+.middle-content > .right-side > .codepen-projects {
+    color: rgb(2, 253, 253);
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.middle-content > .right-side > .project-image img {
+    height: 625px;
+}
+
+#free {
+    color: black;
+    background-color: #4bce79;
+    font-size: 3em;
+    border: none;
+    outline: none;
+    padding: 40px;
+    border-radius: 5px;
+    margin-top: 4rem;
+    margin-bottom: 3.5rem;
+    margin-right: 2rem;
+    margin-left: 4rem;
+}
+
+#learn {
+    color: white;
+    background-color: black;
+    font-size: 3em;
+    border: none;
+    outline: none;
+    padding: 40px;
+    border-radius: 5px;
+}
